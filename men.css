@@ -1,0 +1,19 @@
+.pointer {
+  cursor: pointer;
+}
+
+.underline {
+  border-bottom: 4px solid black;
+}
+
+.expand {
+  animation: expand 1500ms normal 0s 1 forwards;
+}
+
+@keyframes expand {
+  0% {
+  }
+  100% {
+    height: 425px;
+  }
+}
